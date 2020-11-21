@@ -1,0 +1,8 @@
+$url = "https://dl.discordapp.net/apps/win/0.0.308/DiscordSetup.exe"
+$output = "~\DiscordSetup.exe"
+$start_time = Get-Date
+
+Invoke-WebRequest -Uri $url -OutFile $output
+cd ~
+start DiscordSetup.exe
+cls
