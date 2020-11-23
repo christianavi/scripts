@@ -1,0 +1,7 @@
+$url = "https://gdlp01.c-wss.com/gds/6/0100009116/02/mpp_-win-g3010-1_01-ea34_2.exe"
+$output = "~\mpp_-win-g3010-1_01-ea34_2.exe"
+
+Invoke-WebRequest -Uri $url -OutFile $output
+cd ~
+start mpp_-win-g3010-1_01-ea34_2.exe
+cls
