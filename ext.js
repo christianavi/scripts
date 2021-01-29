@@ -20,4 +20,4 @@ function ext() {
     console.log("[Vanilla] Success.")
 }
 
-export { ext }
+export { ext };
